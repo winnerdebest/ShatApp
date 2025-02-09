@@ -31,9 +31,9 @@ if ENVIRONMENT == 'development':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', '*']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'shatapp-xory.onrender.com']
 
-CSRF_TRUSTED_ORIGINS = [ 'https://*' ]
+CSRF_TRUSTED_ORIGINS = [ 'https://shatapp-xory.onrender.com' ]
 
 
 # Application definition

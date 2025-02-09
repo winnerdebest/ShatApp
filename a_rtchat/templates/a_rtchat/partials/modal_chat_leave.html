@@ -1,0 +1,16 @@
+<!--<div x-data="{ open: true }" x-show="open" x-transition 
+    class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+    
+    <div class="bg-white p-6 rounded-lg shadow-lg w-96">
+        <h3 class="text-lg font-bold text-gray-800">Leave Group</h3>
+        <p class="mt-2 text-gray-600">Are you sure you want to leave this group?</p>
+
+        <div class="mt-4 flex justify-end space-x-3">
+            <form method='POST' action="{% url "chatroom-leave" chat_group.group_name %}">
+                {% csrf_token %}
+                <button type="submit" class="button-red mt-4"> Yes i want to Leave</button>
+                <a class="button button-gray ml-1 cursor-pointer"  href="{{ request.META.HTTP_REFERER }}">Cancel</a>
+            </form>
+        </div>
+    </div>
+</div> -->

@@ -13,8 +13,8 @@ ShatApp is a **real-time web chat application** built with Django, WebSockets, H
 - **HTMX** (Dynamic UI without JavaScript)  
 - **Tailwind CSS** (Styling)  
 
-### 🔗 Live Demo (If hosted)  
-[Visit ShatApp](#)  
+### 🔗 Live Demo  
+[https://portfolio-0k3f.onrender.com/](#)  
 
 ### 📂 Installation  
 ```bash
